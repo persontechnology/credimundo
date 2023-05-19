@@ -6,12 +6,21 @@ use App\Models\User;
 use App\Notifications\FormularioSolicitudCredito;
 use App\Notifications\NuevoSolicitudCreditoEnLinea;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Storage;
 
 class PaginaWebController extends Controller
 {
     public function inicio()
     {
+        //subiendo cambios
+        // Artisan::call('cache:clear');
+        // Artisan::call('config:clear');
+        // Artisan::call('config:cache');
+        // Artisan::call('storage:link');
+        // Artisan::call('key:generate');
+        // Artisan::call('migrate:fresh --seed');
+
         return view('inicio');
     }
 
