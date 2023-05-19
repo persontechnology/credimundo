@@ -5,7 +5,7 @@
 		@isset($title)
 			{{ $title }} | 
 		@endisset
-		{{ config('app.name','CREDIMUNDO') }}
+		CREDIMUNDO - Soluciones Financieras Flexibles
 	</title>
 
 	<!-- Meta Tags -->
