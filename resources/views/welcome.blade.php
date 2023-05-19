@@ -12,8 +12,37 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="Webestica.com">
-	<meta name="description" content="CREDIMUNDO, AHORROS, CRÉDITOS, INVERSIONES, TARJETAS, PRESTAMOS">
+	<meta name="author" content="{{ route('inicio') }}">
+	<meta name="description" content="CREDIMUNDO, 
+	Créditos,
+	Préstamos,
+	Finanzas,
+	Servicios financieros,
+	Dinero,
+	Soluciones financieras,
+	Tasas de interés,
+	Plazos,
+	Solicitud de crédito,
+	Asesoramiento financiero,
+	Flexibilidad,
+	Confianza,
+	Rapidez,
+	Transparencia,
+	Conveniencia,
+	Calidad,
+	Seguridad,
+	Ahorro,
+	Inversiones,
+	Crecimiento financiero,
+	Credimundo Salcedo,
+	CRedimundo Cotopaxi,
+	Credimundo Ecuador,
+	Frente a COAC CACPECO,
+	Frente a COAC 9 DE OCTUBRE,
+	Créditos y Préstamos,
+	CREDIMUNDO - Soluciones Financieras Flexibles,
+	Soluciones Financieras Flexibles
+,	">
 
 	<!-- Dark mode -->
 	<script>
@@ -135,7 +164,7 @@
 			<img class="light-mode-item my-3" src="{{ asset('assets/images/logo.svg') }}" alt="logo">
 			<img class="dark-mode-item my-3" src="{{ asset('assets/images/logo-light.svg') }}" alt="logo">
 			<p>
-				CREDIMUNDO, resuelve todas las necesidades financieras de nuestros socios, entregándoles la mejor experiencia personal y digital, sustentada en nuestra capacidad de conocerlos y personalizando el servicio que les entregamos.
+				CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero!
 			</p>
 			
 			<p class="text-center text-bold">
@@ -147,7 +176,7 @@
 			<div class="bg-primary bg-opacity-10 p-4 mb-4 text-center w-100 rounded">
 				<h3>QUIERO SER SOCIO.</h3>
 				<p>Siempre estamos listos para recibirte e invitarte a ser parte de nuestra familia. Disponemos de distintos tipos de cuentas y soluciones.</p>
-				<a href="#" class="btn btn-primary">Iniciar</a>
+				<a href="{{ route('cuenta.abrir') }}" class="btn btn-primary">Iniciar</a>
 			</div>
 		</div>
 		<div class="mt-auto pb-3">
@@ -316,7 +345,7 @@
 			</div>
 			<div class="col-md-5">
 				<p class="text-muted">
-					CREDIMUNDO, resuelve todas las necesidades financieras de nuestros socios, entregándoles la mejor experiencia personal y digital, sustentada en nuestra capacidad de conocerlos y personalizando el servicio que les entregamos.
+					CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!
 				</p>
 			</div>
 			<div class="col-md-4">
