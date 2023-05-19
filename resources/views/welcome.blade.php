@@ -2,18 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 	 <title>
-		@isset($title)
-			{{ $title }} | 
-		@endisset
-		CREDIMUNDO - Soluciones Financieras Flexibles
+		@isset($title){{ $title }} | @endisset CREDIMUNDO
 	</title>
-
+	
 	<!-- Meta Tags -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	
+
 	<meta name="author" content="CREDIMUNDO">
 	<meta name="title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO - Soluciones Financieras Flexibles">
 	<meta name="description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
