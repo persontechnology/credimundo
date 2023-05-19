@@ -15,7 +15,7 @@ Route::get('/confirmar-solicitud-de-credito',[PaginaWebController::class,'confir
 Route::post('/enviar-solicitud-de-credito',[PaginaWebController::class,'enviarSolicitudCredito'])->name('simulador.enviarSolicitudCredito');
 Route::get('/solicitud-de-credito',[PaginaWebController::class,'solicitudCredito'])->name('creditos.solicitudCredito');
 Route::post('/enviar-formulario-de-credito',[PaginaWebController::class,'enviarFormularioCredito'])->name('creditos.enviarFormularioCredito');
-
+Route::get('/abrir-cuenta-en-linea',[PaginaWebController::class,'abrirCuenta'])->name('cuenta.abrir');
 
 
 

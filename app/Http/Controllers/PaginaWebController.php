@@ -97,5 +97,10 @@ class PaginaWebController extends Controller
         $msg='¡Es un placer estar en contacto contigo! <br><br> Queríamos informarte que hemos enviado el formulario de solicitud de crédito a tu dirección de correo electrónico. Por favor, revisa tu bandeja de entrada y sigue las instrucciones adjuntas para descargar el formulario. <br><br> Agradecemos tu confianza en nuestra empresa y esperamos poder ayudarte a alcanzar tus metas financieras. <br><br> ¡Estamos ansiosos por recibir tu formulario de solicitud de crédito y ofrecerte una solución adecuada a tus necesidades!';
         return redirect()->route('creditos.solicitudCredito')->with('success', $msg);
     }
+
+    public function abrirCuenta()
+    {
+        return view('abrir-cuenta-linea');
+    }
     
 }

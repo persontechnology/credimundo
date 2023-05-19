@@ -1,4 +1,4 @@
-<section>
+<section class="py-0 m-0">
 	<div class="container">
 		<div class="row">
             <div class="col-md-9 text-center mx-auto my-0 my-md-5 position-relative z-index-9">

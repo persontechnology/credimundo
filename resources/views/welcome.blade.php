@@ -116,7 +116,7 @@
 	<!-- SVG shape END -->
 	<div class="position-relative">
 		<p class="text-white m-0">¿Qué te parecen <strong>$2.000, SIN GARANTE</strong> y en 48 horas?
-			<a href="#" class="btn btn-xs btn-warning ms-3 mb-0">Maś información <i class="fa-solid fa-arrow-right text-dark"></i></a>
+			<a href="{{ route('simulador.credito') }}" class="btn btn-xs btn-warning ms-3 mb-0">Maś información <i class="fa-solid fa-arrow-right text-dark"></i></a>
 		</p>
 	</div>
 	<!-- Close button -->
@@ -136,6 +136,11 @@
 			<img class="dark-mode-item my-3" src="{{ asset('assets/images/logo-light.svg') }}" alt="logo">
 			<p>
 				CREDIMUNDO, resuelve todas las necesidades financieras de nuestros socios, entregándoles la mejor experiencia personal y digital, sustentada en nuestra capacidad de conocerlos y personalizando el servicio que les entregamos.
+			</p>
+			
+			<p class="text-center text-bold">
+				<strong>Mg.Ing. DAVID CRIOLLO</strong> <br>
+				PRESIDENTE
 			</p>
 			
 			
@@ -187,6 +192,7 @@
 						<a class="nav-link {{ Route::is('contacto')?'text-primary':'' }}" href="{{ route('contacto') }}">Contacto</a>
 					</li>
 				</ul>
+				
 				<!-- Top bar right -->
 				<div class="d-flex align-items-center">
 					
@@ -279,7 +285,7 @@
 			<div class="nav flex-nowrap align-items-center">
 				<!-- Nav Button -->
 				<div class="nav-item d-none d-md-block">
-					<a href="#" class="btn btn-sm btn-primary mb-0 mx-2">ABRE TU CUENTA <i class="fa-solid fa-arrow-right"></i></a>
+					<a href="{{ route('cuenta.abrir') }}" class="btn btn-sm btn-primary mb-0 mx-2">ABRE TU CUENTA <i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 				
 				<!-- Offcanvas menu toggler -->

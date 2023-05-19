@@ -16,7 +16,7 @@
                                 Nuestro compromiso es ofrecerte la mejor experiencia financiera. <br>
                                 Abre tu cuenta <strong>CREDIMUNDO</strong> en línea.
                             </p>
-                            <a href="#" class="btn btn-warning" data-mdb-ripple-color="dark">ABRIR CUENTA <i class="fa-solid fa-arrow-right mx-2"></i></a>
+                            <a href="{{ route('cuenta.abrir') }}" class="btn btn-warning" data-mdb-ripple-color="dark">ABRIR CUENTA <i class="fa-solid fa-arrow-right mx-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -188,12 +188,14 @@
             </div>
               
             <div class="col-lg-4 col-sm-12">
-              <a href="#"  class="bg-primary rounded text-center text-white-force p-3 d-block">
+              <a href="{{ route('cuenta.abrir') }}"  class="bg-primary rounded text-center text-white-force p-3 d-block">
                 <i class="fa-solid fa-certificate m-2 fa-2x"></i>
                 <h6 class="m-0 text-bold">Certificados financieros</h6>
                 <p class="text-muted">Obtén un documento certificado de tus cuentas y productos contratados.</p>
               </a>
-            </div>            
+            </div>
+            
+            
         </div>
     </div>
 
