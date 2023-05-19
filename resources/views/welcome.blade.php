@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 	 <title>
-		@isset($title){{ $title }} | @endisset CREDIMUNDO
+		@isset($title){{ $title }} |@endisset CREDIMUNDO
 	</title>
 	
 	<!-- Meta Tags -->
