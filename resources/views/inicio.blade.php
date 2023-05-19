@@ -1,4 +1,4 @@
-@extends('welcome',['title'=>'Créditos y Préstamos'])
+@extends('welcome',['title'=>'Ahorros, Créditos e Inversiones'])
 
 @section('content')
 
