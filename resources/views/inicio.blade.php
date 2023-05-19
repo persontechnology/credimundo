@@ -8,15 +8,15 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card  h-300 overflow-hidden card-bg-scale text-center" style="background-image :url({{ asset('assets/images/inicio/credi-mundo.gif') }}); background-position: center left; background-size: cover;">
-                    <div class="card-img-overlay align-items-center p-3 p-sm-4"> 
-                        <div class="col-md-8 m-auto p-4">
+                <div class="card  h-300 overflow-hidden card-bg-scale" style="background-image :url({{ asset('assets/images/inicio/abrir-cuenta.jpeg') }}); background-position: center left; background-size: cover;">
+                    <div class="card-img-overlay align-items-sm-start p-3 p-sm-4"> 
+                        <div class="col-md-8  p-4">
                             <h1 class="text-white">Primero tú</h1>
                             <p class="text-white">
                                 Nuestro compromiso es ofrecerte la mejor experiencia financiera. <br>
                                 Abre tu cuenta <strong>CREDIMUNDO</strong> en línea.
                             </p>
-                            <a href="#" class="btn btn-outline-light text-white btn-block" data-mdb-ripple-color="dark">ABRIR CUENTA <i class="fa-solid fa-arrow-right mx-2"></i></a>
+                            <a href="#" class="btn btn-warning" data-mdb-ripple-color="dark">ABRIR CUENTA <i class="fa-solid fa-arrow-right mx-2"></i></a>
                         </div>
                     </div>
                 </div>
