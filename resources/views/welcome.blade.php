@@ -12,7 +12,7 @@
 
 
 	<meta name="author" content="CREDIMUNDO">
-	<meta name="title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO - Soluciones Financieras Flexibles">
+	<meta name="title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO">
 	<meta name="description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
 	<meta name="keywords" content="
 		CREDIMUNDO, 
@@ -42,14 +42,14 @@
 		Frente a COAC CACPECO,
 		Frente a COAC 9 DE OCTUBRE,
 		Créditos y Préstamos,
-		CREDIMUNDO - Soluciones Financieras Flexibles,
+		CREDIMUNDO,
 		Soluciones Financieras Flexibles,
 	">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="{{ route('inicio') }}">
-	<meta property="og:title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO - Soluciones Financieras Flexibles">
+	<meta property="og:title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO">
 	<meta property="og:description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
 	<meta property="og:keywords" content="
 		CREDIMUNDO, 
@@ -79,7 +79,7 @@
 		Frente a COAC CACPECO,
 		Frente a COAC 9 DE OCTUBRE,
 		Créditos y Préstamos,
-		CREDIMUNDO - Soluciones Financieras Flexibles,
+		CREDIMUNDO,
 		Soluciones Financieras Flexibles,
 	">
 	<meta property="og:image" content="{{ asset('assets/images/credimundo.png') }}">
@@ -87,7 +87,7 @@
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="{{ route('inicio') }}">
-	<meta property="twitter:title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO - Soluciones Financieras Flexibles">
+	<meta property="twitter:title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO">
 	<meta property="twitter:description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
 	<meta property="twitter:keywords" content="
 		CREDIMUNDO, 
@@ -117,7 +117,7 @@
 		Frente a COAC CACPECO,
 		Frente a COAC 9 DE OCTUBRE,
 		Créditos y Préstamos,
-		CREDIMUNDO - Soluciones Financieras Flexibles,
+		CREDIMUNDO,
 		Soluciones Financieras Flexibles,
 	">
 	<meta property="twitter:image" content="{{ asset('assets/images/credimundo.png') }}">
