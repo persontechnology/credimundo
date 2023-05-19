@@ -2,6 +2,8 @@
 
 @section('content')
 
+
+
 <section class="pb-4 pt-3">
     <div class="container">
         <div class="row">
@@ -169,29 +171,32 @@
     <div class="container">
         <h3 class="mb-3 mt-5">Consultas rápidas</h3>
         <div class="row mt-4 mt-lg-0 g-2">
-            <div class="col-6 col-sm-4">
-              <a href="#" class="bg-primary rounded text-center text-white-force p-3 d-block">
+            <div class="col-lg-4 col-sm-12">
+                <a href="{{ route('creditos.solicitudCredito') }}" class="bg-primary rounded text-center text-white-force p-3 d-block">
+                  <i class="fa-solid fa-file m-2 fa-2x"></i>
+                  <h6 class="m-0 text-bold">Solicitud de crédito</h6>
+                  <p class="text-muted">Puedes descargar gratis el Formulario de Solicitud de crédito.</p>
+                </a>
+            </div>
+            
+            <div class="col-lg-4 col-sm-12">
+                <a href="{{ route('simulador.credito') }}" class="bg-info rounded text-center text-white-force p-3 d-block">
+                  <i class="fa-solid fa-dollar-sign m-2 fa-2x"></i>
+                  <h6 class="m-0 text-bold">Simulador de créditos</h6>
+                  <p class="text-muted">Calcula las cuotas del crédito que buscas, en el plazo que prefieras.</p>
+                </a>
+            </div>
+              
+            <div class="col-lg-4 col-sm-12">
+              <a href="#"  class="bg-primary rounded text-center text-white-force p-3 d-block">
                 <i class="fa-solid fa-certificate m-2 fa-2x"></i>
                 <h6 class="m-0 text-bold">Certificados financieros</h6>
                 <p class="text-muted">Obtén un documento certificado de tus cuentas y productos contratados.</p>
               </a>
-            </div>
-            <div class="col-6 col-sm-4">
-              <a href="#" class="bg-info rounded text-center text-white-force p-3 d-block">
-                <i class="fa-solid fa-dollar-sign m-2 fa-2x"></i>
-                <h6 class="m-0 text-bold">Simulador de créditos</h6>
-                <p class="text-muted">Calcula las cuotas del crédito que buscas, en el plazo que prefieras.</p>
-              </a>
-            </div>
-            <div class="col-6 col-sm-4">
-              <a href="#" class="bg-primary rounded text-center text-white-force p-3 d-block">
-                <i class="fa-solid fa-file m-2 fa-2x"></i>
-                <h6 class="m-0 text-bold">Documentos y formularios</h6>
-                <p class="text-muted">Encuentra lo que necesitas para realizar tus trámites.</p>
-              </a>
-            </div>
+            </div>            
         </div>
     </div>
+
 </section>
 
 

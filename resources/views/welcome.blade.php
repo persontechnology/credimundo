@@ -94,7 +94,10 @@
 	<!-- Theme CSS -->
 	<link id="style-switch" rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 	
+	{{-- jquery --}}
+	<script src="{{ asset('assets/js/jquery-3.7.0.min.js') }}"></script>
 	
+	@stack('scriptsHeader')
 </head>
 
 <body>
@@ -264,9 +267,10 @@
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav navbar-nav-scroll mx-auto">
 					<li class="nav-item"> <a class="nav-link {{ Route::is('inicio')?'active':'' }}" href="{{ route('inicio') }}"><i class="mx-1 fa-solid fa-house"></i>Inicio</a></li>
-					<li class="nav-item"> <a class="nav-link {{ Route::is('creditos')?'active':'' }}" href="{{ route('creditos') }}"><i class="mx-1 fa-solid fa-money-check-dollar"></i>Créditos</a></li>
+					<li class="nav-item"> <a class="nav-link {{ Route::is('creditos*')?'active':'' }}" href="{{ route('creditos') }}"><i class="mx-1 fa-solid fa-money-check-dollar"></i>Créditos</a></li>
 					<li class="nav-item"> <a class="nav-link {{ Route::is('ahorros')?'active':'' }}" href="{{ route('ahorros') }}"><i class="mx-1 fa-solid fa-piggy-bank"></i>Ahorros</a></li>
 					<li class="nav-item"> <a class="nav-link {{ Route::is('inversiones')?'active':'' }}" href="{{ route('inversiones') }}"><i class="mx-1 fa-solid fa-money-bill-trend-up"></i>Inversiones</a></li>
+					<li class="nav-item"> <a class="nav-link {{ Route::is('simulador*')?'active':'' }}" href="{{ route('simulador.credito') }}"><i class="fa-solid fa-table mx-1"></i>Simulador</a></li>
 				</ul>
 			</div>
 			<!-- Main navbar END -->
@@ -351,7 +355,6 @@
 
 <!-- =======================
 JS libraries, plugins and custom scripts -->
-
 <!-- Bootstrap JS -->
 <script src="{{ asset('assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
 
@@ -359,9 +362,13 @@ JS libraries, plugins and custom scripts -->
 <script src="{{ asset('assets/vendor/tiny-slider/tiny-slider.js') }}"></script>
 <script src="{{ asset('assets/vendor/sticky-js/sticky.min.js') }}"></script>
 <script src="{{ asset('assets/vendor/plyr/plyr.js') }}"></script>
+
+{{-- mdb5 --}}
+<script src="{{ asset('assets/vendor/MDB5/js/mdb.min.js') }}"></script>
+
 <!-- Template Functions -->
 <script src="{{ asset('assets/js/functions.js') }}"></script>
-<script src="{{ asset('assets/vendor/MDB5/js/mdb.min.js') }}"></script>
-{{-- mdb5 --}}
+
+@stack('scriptsFooter')
 </body>
 </html>

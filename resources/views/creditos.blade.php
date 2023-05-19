@@ -1,17 +1,29 @@
 @extends('welcome',['title'=>'Créditos'])
 @section('content')
-<section class="pt-4">
+<section class="p-0 m-0">
+  <div class="container">
+    <nav class="d-flex justify-content-center" aria-label="breadcrumb">
+      <ol class="breadcrumb breadcrumb-dark breadcrumb-dots mb-0">
+        <li class="breadcrumb-item"><a href="{{ route('inicio') }}"><i class="bi bi-house me-1"></i> Inicio</a></li>
+        <li class="breadcrumb-item active">Créditos</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<section class="pt-2">
 	<div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card bg-dark-overlay-2 overflow-hidden card-bg-scale h-200 text-left" style="background-image:url({{ asset('assets/images/creditos/1.jpeg') }}); background-position: center left; background-size: cover;">
+                <div class="card bg-dark-overlay-2 overflow-hidden card-bg-scale h-300 text-left" style="background-image:url({{ asset('assets/images/creditos/1.jpeg') }}); background-position: center left; background-size: cover;">
                     <div class="card-img-overlay d-flex align-items-start p-3 p-sm-4"> 
                         <div class="w-100 my-auto">
                             <h3 class="text-white">Pide tu crédito en línea.</h3>
                             <p class="text-muted">
                                 Solicita tu préstamo en minutos y úsalo en lo que necesites.
                             </p>
-                            <a href="" class="btn btn-white">Pedir préstamo en línea</a>
+                            <a href="{{ route('simulador.credito') }}" class="btn btn-white">Pedir préstamo en línea</a>
+                            <a href="{{ route('creditos.solicitudCredito') }}" class="btn btn-warning">Descargar solicitud de crédito</a>
                         </div>
                     </div>
                 </div>
