@@ -12,37 +12,116 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="{{ route('inicio') }}">
-	<meta name="description" content="CREDIMUNDO, 
-	Créditos,
-	Préstamos,
-	Finanzas,
-	Servicios financieros,
-	Dinero,
-	Soluciones financieras,
-	Tasas de interés,
-	Plazos,
-	Solicitud de crédito,
-	Asesoramiento financiero,
-	Flexibilidad,
-	Confianza,
-	Rapidez,
-	Transparencia,
-	Conveniencia,
-	Calidad,
-	Seguridad,
-	Ahorro,
-	Inversiones,
-	Crecimiento financiero,
-	Credimundo Salcedo,
-	CRedimundo Cotopaxi,
-	Credimundo Ecuador,
-	Frente a COAC CACPECO,
-	Frente a COAC 9 DE OCTUBRE,
-	Créditos y Préstamos,
-	CREDIMUNDO - Soluciones Financieras Flexibles,
-	Soluciones Financieras Flexibles
-,	">
+	<meta name="author" content="CREDIMUNDO">
+
+	<!-- Primary Meta Tags -->
+	
+	<meta name="title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO - Soluciones Financieras Flexibles">
+	<meta name="description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!,
+		CREDIMUNDO, 
+		Créditos,
+		Préstamos,
+		Finanzas,
+		Servicios financieros,
+		Dinero,
+		Soluciones financieras,
+		Tasas de interés,
+		Plazos,
+		Solicitud de crédito,
+		Asesoramiento financiero,
+		Flexibilidad,
+		Confianza,
+		Rapidez,
+		Transparencia,
+		Conveniencia,
+		Calidad,
+		Seguridad,
+		Ahorro,
+		Inversiones,
+		Crecimiento financiero,
+		Credimundo Salcedo,
+		CRedimundo Cotopaxi,
+		Credimundo Ecuador,
+		Frente a COAC CACPECO,
+		Frente a COAC 9 DE OCTUBRE,
+		Créditos y Préstamos,
+		CREDIMUNDO - Soluciones Financieras Flexibles,
+		Soluciones Financieras Flexibles">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{ route('inicio') }}">
+	<meta property="og:title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO - Soluciones Financieras Flexibles">
+	<meta property="og:description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!,
+		CREDIMUNDO, 
+		Créditos,
+		Préstamos,
+		Finanzas,
+		Servicios financieros,
+		Dinero,
+		Soluciones financieras,
+		Tasas de interés,
+		Plazos,
+		Solicitud de crédito,
+		Asesoramiento financiero,
+		Flexibilidad,
+		Confianza,
+		Rapidez,
+		Transparencia,
+		Conveniencia,
+		Calidad,
+		Seguridad,
+		Ahorro,
+		Inversiones,
+		Crecimiento financiero,
+		Credimundo Salcedo,
+		CRedimundo Cotopaxi,
+		Credimundo Ecuador,
+		Frente a COAC CACPECO,
+		Frente a COAC 9 DE OCTUBRE,
+		Créditos y Préstamos,
+		CREDIMUNDO - Soluciones Financieras Flexibles,
+		Soluciones Financieras Flexibles">
+
+	<meta property="og:image" content="{{ asset('assets/images/credimundo.png') }}">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="{{ route('inicio') }}">
+	<meta property="twitter:title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO - Soluciones Financieras Flexibles">
+	<meta property="twitter:description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!,
+		CREDIMUNDO, 
+		Créditos,
+		Préstamos,
+		Finanzas,
+		Servicios financieros,
+		Dinero,
+		Soluciones financieras,
+		Tasas de interés,
+		Plazos,
+		Solicitud de crédito,
+		Asesoramiento financiero,
+		Flexibilidad,
+		Confianza,
+		Rapidez,
+		Transparencia,
+		Conveniencia,
+		Calidad,
+		Seguridad,
+		Ahorro,
+		Inversiones,
+		Crecimiento financiero,
+		Credimundo Salcedo,
+		CRedimundo Cotopaxi,
+		Credimundo Ecuador,
+		Frente a COAC CACPECO,
+		Frente a COAC 9 DE OCTUBRE,
+		Créditos y Préstamos,
+		CREDIMUNDO - Soluciones Financieras Flexibles,
+		Soluciones Financieras Flexibles">
+
+	<meta property="twitter:image" content="{{ asset('assets/images/credimundo.png') }}">
+
 
 	<!-- Dark mode -->
 	<script>
