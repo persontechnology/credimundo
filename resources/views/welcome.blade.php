@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 	 <title>
-		@isset($title){{ $title }} |@endisset CREDIMUNDO
+		@isset($title){{ $title }} |@endisset {{ config('app.name','CREDIMUNDO') }}
 	</title>
 	
 	<!-- Meta Tags -->
@@ -11,11 +11,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-	<meta name="author" content="CREDIMUNDO">
-	<meta name="title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO">
-	<meta name="description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
+	<meta name="author" content="{{ config('app.name','CREDIMUNDO') }}">
+	<meta name="title" content="{{ config('app.name','CREDIMUNDO') }}">
+	<meta name="description" content="{{ config('app.name','CREDIMUNDO') }}, ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
 	<meta name="keywords" content="
-		CREDIMUNDO, 
+		CREDIMUNDO,
 		Créditos,
 		Préstamos,
 		Finanzas,
@@ -49,8 +49,8 @@
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="{{ route('inicio') }}">
-	<meta property="og:title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO">
-	<meta property="og:description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
+	<meta property="og:title" content="{{ config('app.name','CREDIMUNDO') }}">
+	<meta property="og:description" content="{{ config('app.name','CREDIMUNDO') }}, ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
 	<meta property="og:keywords" content="
 		CREDIMUNDO, 
 		Créditos,
@@ -82,13 +82,14 @@
 		CREDIMUNDO,
 		Soluciones Financieras Flexibles,
 	">
+
 	<meta property="og:image" content="{{ asset('assets/images/credimundo.png') }}">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="{{ route('inicio') }}">
-	<meta property="twitter:title" content="Ahorros, Créditos e Inversiones | CREDIMUNDO">
-	<meta property="twitter:description" content="CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
+	<meta property="twitter:title" content="{{ config('app.name','CREDIMUNDO') }}">
+	<meta property="twitter:description" content="{{ config('app.name','CREDIMUNDO') }}, ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
 	<meta property="twitter:keywords" content="
 		CREDIMUNDO, 
 		Créditos,
