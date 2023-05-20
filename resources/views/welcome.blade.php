@@ -13,7 +13,7 @@
 
 	<meta name="author" content="{{ config('app.name','CREDIMUNDO') }}">
 	<meta name="title" content="{{ config('app.name','CREDIMUNDO') }}">
-	<meta name="description" content="{{ config('app.name','CREDIMUNDO') }}, ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
+	<meta name="description" content="¡Bienvenido a CREDIMUNDO! Ofrecemos créditos, ahorros e inversiones para ayudarte a alcanzar tus metas financieras. Nuestros productos flexibles, tasas competitivas y expertos en servicios financieros están aquí para brindarte la mejor solución. ¡Confía en nosotros para construir un futuro financiero exitoso!">
 	<meta name="keywords" content="
 		CREDIMUNDO,
 		Créditos,
@@ -50,7 +50,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="{{ route('inicio') }}">
 	<meta property="og:title" content="{{ config('app.name','CREDIMUNDO') }}">
-	<meta property="og:description" content="{{ config('app.name','CREDIMUNDO') }}, ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
+	<meta property="og:description" content="¡Bienvenido a CREDIMUNDO! Ofrecemos créditos, ahorros e inversiones para ayudarte a alcanzar tus metas financieras. Nuestros productos flexibles, tasas competitivas y expertos en servicios financieros están aquí para brindarte la mejor solución. ¡Confía en nosotros para construir un futuro financiero exitoso!">
 	<meta property="og:keywords" content="
 		CREDIMUNDO, 
 		Créditos,
@@ -89,7 +89,7 @@
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="{{ route('inicio') }}">
 	<meta property="twitter:title" content="{{ config('app.name','CREDIMUNDO') }}">
-	<meta property="twitter:description" content="{{ config('app.name','CREDIMUNDO') }}, ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!">
+	<meta property="twitter:description" content="¡Bienvenido a CREDIMUNDO! Ofrecemos créditos, ahorros e inversiones para ayudarte a alcanzar tus metas financieras. Nuestros productos flexibles, tasas competitivas y expertos en servicios financieros están aquí para brindarte la mejor solución. ¡Confía en nosotros para construir un futuro financiero exitoso!">
 	<meta property="twitter:keywords" content="
 		CREDIMUNDO, 
 		Créditos,
@@ -244,11 +244,11 @@
 			<img class="light-mode-item my-3" src="{{ asset('assets/images/logo.svg') }}" alt="logo">
 			<img class="dark-mode-item my-3" src="{{ asset('assets/images/logo-light.svg') }}" alt="logo">
 			<p>
-				CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero!
+				¡Bienvenido a CREDIMUNDO! <br> Ofrecemos créditos, ahorros e inversiones para ayudarte a alcanzar tus metas financieras. Nuestros productos flexibles, tasas competitivas y expertos en servicios financieros están aquí para brindarte la mejor solución. <br> ¡Confía en nosotros para construir un futuro financiero exitoso!
 			</p>
 			
 			<p class="text-center text-bold">
-				<strong>Mg.Ing. DAVID CRIOLLO</strong> <br>
+				<strong class="text-decoration-underline">Mg.Ing. DAVID CRIOLLO</strong> <br>
 				PRESIDENTE
 			</p>
 			
@@ -425,7 +425,11 @@
 			</div>
 			<div class="col-md-5">
 				<p class="text-muted">
-					CREDIMUNDO ofrece soluciones financieras flexibles con tasas de interés competitivas. Solicita tu crédito o préstamo y obtén respuesta rápida y confiable. Asesoramiento financiero y opciones de pago convenientes. ¡Confía en nosotros para tu crecimiento financiero.!
+					¡Bienvenido a CREDIMUNDO! <br> Ofrecemos créditos, ahorros e inversiones para ayudarte a alcanzar tus metas financieras. Nuestros productos flexibles, tasas competitivas y expertos en servicios financieros están aquí para brindarte la mejor solución. <br> ¡Confía en nosotros para construir un futuro financiero exitoso! 
+				</p>
+				<p class="text-center text-bold text-muted">
+					<strong class="text-decoration-underline">Mg.Ing. DAVID CRIOLLO</strong> <br>
+					PRESIDENTE
 				</p>
 			</div>
 			<div class="col-md-4">
