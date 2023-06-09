@@ -17,9 +17,9 @@
             <form action="{{ route('simulador.enviarSolicitudCredito') }}" method="POST" id="formSolicitarCredito" autocomplete="off">
                 @csrf
                 
-                <input type="hidden" name="monto" value="{{ $detalle->monto }}">
+                <input type="hidden" name="monto" id="monto" value="{{ $detalle->monto }}">
                 <input type="hidden" name="tipo" value="{{ $detalle->tipo }}">
-                <input type="hidden" name="plazo" value="{{ $detalle->plazo }}">
+                <input type="hidden" name="plazo" id="plazo" value="{{ $detalle->plazo }}">
                 <div class="row">
                     <div class="col-sm-6">
                         @include('sections.validation')
@@ -89,11 +89,15 @@
     <script src="{{ asset('assets/js/validate/jquery.validate.min.js') }}"></script>
     <script src="{{ asset('assets/js/validate/messages_es.min.js') }}"></script>
     <script src="{{ asset('assets/js/validate/extrax_validates.js') }}"></script>
+    {{-- confirm --}}
+    <link rel="stylesheet" href="{{ asset('assets/vendor/confirmjs/jquery-confirm.min.css') }}">
+    <script src="{{ asset('assets/vendor/confirmjs/jquery-confirm.min.js') }}"></script>
 @endpush
 
 @push('scriptsFooter')
     <script>
 
+            
 
         $(".calculator-amortization").accrue({
             mode: "amortization",
@@ -115,31 +119,56 @@
         $( "#formSolicitarCredito" ).validate( {
             
             rules: {
-                apellidosNombres:{
-                    required:true,
-                    
-                },
                 cedula:{
-                    required:true,
                     cedula:true,
                     digits: true,
                     
                 },
                 celular:{
-                    required:true,
                     digits: true,
                     minlength:9,
                     maxlength:15
-                    
                 },
                 correoElectronico:{
-                    required:true,
                     email:true
                 },
 
             },
+            errorElement:'strong',
+            errorPlacement: function ( error, element ) {
+				error.addClass( "text-danger" );
+                error.insertAfter( element );
+			},
             submitHandler: function(form) {
-                form.submit();
+                $.confirm({
+                    title: 'Confirmar!',
+                    content: '¿Estás seguro/a de solicitar un préstamo de '+$('#monto').val()+' dólares ?',
+                    theme: 'modern',
+                    icon: 'fa-solid fa-check',
+                    type: 'blue',
+                    buttons: {
+                        si: {
+                            btnClass: 'btn-blue',
+                            isHidden: false,
+                            isDisabled: false,
+                            keys: ['enter'],
+                            action: function(heyThereButton){
+                                $.dialog({
+                                    title: '',
+                                    icon: 'fa fa-spinner fa-spin',
+                                    closeIcon: false,
+                                    type: 'blue',
+                                    theme: 'modern',
+                                    content: 'Estamos procesando su solicitud. Por favor, tenga paciencia mientras completamos el proceso.',
+                                });
+                                form.submit();
+                            }
+                        },
+                        no:{
+
+                        }
+                    }
+                });
             },
             highlight: function ( element, errorClass, validClass ) {
                 $( element ).addClass( "is-invalid" ).removeClass( "is-valid" );

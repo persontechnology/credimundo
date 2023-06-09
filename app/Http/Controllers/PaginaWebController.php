@@ -85,7 +85,7 @@ class PaginaWebController extends Controller
         $user->email='david.criollo14@gmail.com';
         $user->notify(new NuevoSolicitudCreditoEnLinea($request));
         $msg='¡Gracias por solicitar un crédito en CREDIMUNDO..! <br><br> Estamos comprometidos en brindarte un servicio ágil y eficiente. Nuestro equipo de profesionales trabaja diligentemente para validar tu información en el menor tiempo posible. <br> Pronto, uno de nuestros asesores se pondrá en contacto contigo para ofrecerte la mejor solución financiera adaptada a tus necesidades. <br> <br>¡Agradecemos tu confianza en nosotros y estamos ansiosos por ayudarte a alcanzar tus metas.';
-        return redirect()->route('simulador.credito')->with('success', $msg);
+        return redirect()->route('inicio')->with('success', $msg);
 
     }
 

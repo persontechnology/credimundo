@@ -78,7 +78,6 @@
         </div>
     </section>
 
-    @include('sections.alert-success')
     
 
 @push('scriptsHeader')
