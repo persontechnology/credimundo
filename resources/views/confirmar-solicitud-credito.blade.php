@@ -142,7 +142,7 @@
             submitHandler: function(form) {
                 $.confirm({
                     title: 'Confirmar!',
-                    content: '¿Estás seguro/a de solicitar un préstamo de '+$('#monto').val()+' dólares ?',
+                    content: '¿Estás seguro/a de solicitar un crédito de '+$('#monto').val()+' dólares ?',
                     theme: 'modern',
                     icon: 'fa-solid fa-check',
                     type: 'blue',
