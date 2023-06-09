@@ -38,12 +38,14 @@
         </div>
     </section>
 
-    @include('sections.alert-success')
     
     @push('scriptsHeader')
     
     <script src="{{ asset('assets/js/validate/jquery.validate.min.js') }}"></script>
     <script src="{{ asset('assets/js/validate/messages_es.min.js') }}"></script>
+    {{-- confirm --}}
+    <link rel="stylesheet" href="{{ asset('assets/vendor/confirmjs/jquery-confirm.min.css') }}">
+    <script src="{{ asset('assets/vendor/confirmjs/jquery-confirm.min.js') }}"></script>
     
 @endpush
 
@@ -59,8 +61,41 @@
                 },
 
             },
+            errorElement:'strong',
+            errorPlacement: function ( error, element ) {
+				error.addClass( "text-danger" );
+                error.insertAfter( element );
+			},
             submitHandler: function(form) {
-                form.submit();
+                $.confirm({
+                    title: 'Confirmar!',
+                    content: 'Envíame el formulario de crédito a '+$('#correoElectronico').val(),
+                    theme: 'modern',
+                    icon: 'fa-solid fa-check',
+                    type: 'blue',
+                    buttons: {
+                        si: {
+                            btnClass: 'btn-blue',
+                            isHidden: false,
+                            isDisabled: false,
+                            keys: ['enter'],
+                            action: function(heyThereButton){
+                                $.dialog({
+                                    title: '',
+                                    icon: 'fa fa-spinner fa-spin',
+                                    closeIcon: false,
+                                    type: 'blue',
+                                    theme: 'modern',
+                                    content: 'Estamos procesando su solicitud. Por favor, tenga paciencia mientras completamos el proceso.',
+                                });
+                                form.submit();
+                            }
+                        },
+                        no:{
+
+                        }
+                    }
+                });
             },
             highlight: function ( element, errorClass, validClass ) {
                 $( element ).addClass( "is-invalid" ).removeClass( "is-valid" );

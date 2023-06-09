@@ -84,6 +84,9 @@
 <script src="{{ asset('assets/js/jquery.accrue.js') }}"></script>
 <script src="{{ asset('assets/js/validate/jquery.validate.min.js') }}"></script>
 <script src="{{ asset('assets/js/validate/messages_es.min.js') }}"></script>
+{{-- confirm --}}
+<link rel="stylesheet" href="{{ asset('assets/vendor/confirmjs/jquery-confirm.min.css') }}">
+<script src="{{ asset('assets/vendor/confirmjs/jquery-confirm.min.js') }}"></script>
 @endpush
 
 @push('scriptsFooter')
@@ -119,6 +122,11 @@
                 min:'Por favor, escribe un monto mayor o igual a {0}.',
                 max:'Por favor, escribe un monto menor o igual a {0}.'
             }
+        },
+        errorElement:'strong',
+        errorPlacement: function ( error, element ) {
+            error.addClass( "text-danger" );
+            error.insertAfter( element );
         },
         submitHandler: function(form) {
             form.submit();
