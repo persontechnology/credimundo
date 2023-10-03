@@ -191,7 +191,7 @@
 			</p>
 			
 			<p class="text-center text-bold">
-				<strong class="text-decoration-underline">Mg.Ing. DAVID CRIOLLO</strong> <br>
+				<strong class="text-decoration-underline">MG.ING. DAVID CRIOLLO</strong> <br>
 				PRESIDENTE
 			</p>
 			
@@ -372,7 +372,7 @@
 					¡Bienvenido a CREDIMUNDO! <br> Ofrecemos créditos, ahorros e inversiones para ayudarte a alcanzar tus metas financieras. Nuestros productos flexibles, tasas competitivas y expertos en servicios financieros están aquí para brindarte la mejor solución. <br> ¡Confía en nosotros para construir un futuro financiero exitoso! 
 				</p>
 				<p class="text-center text-bold text-muted">
-					<strong class="text-decoration-underline">Mg.Ing. DAVID CRIOLLO</strong> <br>
+					<strong class="text-decoration-underline">MG.ING. DAVID CRIOLLO</strong> <br>
 					PRESIDENTE
 				</p>
 			</div>
