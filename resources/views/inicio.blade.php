@@ -11,12 +11,11 @@
                 <div class="card  h-300 overflow-hidden card-bg-scale" style="background-image :url({{ asset('assets/images/inicio/abrir-cuenta.jpeg') }}); background-position: center left; background-size: cover;">
                     <div class="card-img-overlay align-items-sm-start p-3 p-sm-4"> 
                         <div class="col-md-8  p-4">
-                            <h1 class="text-white">Primero tú</h1>
-                            <p class="text-white">
-                                Nuestro compromiso es ofrecerte la mejor experiencia financiera. <br>
-                                Abre tu cuenta <strong>CREDIMUNDO</strong> en línea.
+                            <h1 class="text-dark">¡Bienvenidos socios!</h1>
+                            <p class="text-dark fw-bold">
+                                Hoy les presentamos nuestra innovadora aplicación web, que les brinda la comodidad de acceder a sus movimientos, productos y servicios exclusivos para ustedes.
                             </p>
-                            <a href="{{ route('cuenta.abrir') }}" class="btn btn-warning" data-mdb-ripple-color="dark">ABRIR CUENTA <i class="fa-solid fa-arrow-right mx-2"></i></a>
+                            <a href="https://appweb.credimundo.com.ec/" target="_blanck" class="btn btn-white" data-mdb-ripple-color="dark">INGRESAR APLICACIÓN WEB <i class="fa-solid fa-arrow-right mx-2"></i></a>
                         </div>
                     </div>
                 </div>
