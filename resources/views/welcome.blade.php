@@ -406,7 +406,7 @@
 	<div class="bg-dark-overlay-3">
 		<div class="container">
 			<div class="row align-items-center justify-content-md-between py-4">
-				<div class="text-center text-primary-hover text-muted">©{{ date('Y') }} <a href="https://www.persontechnology.com/" class="text-reset btn-link" target="_blank">Person Technology</a>. Reservados todos los derechos
+				<div class="text-center text-primary-hover text-muted">©{{ date('Y') }} <a href="https://www.persontechnologys.com/" class="text-reset btn-link" target="_blank">Person Technology</a>. Reservados todos los derechos
 				</div>
 			</div>
 		</div>
