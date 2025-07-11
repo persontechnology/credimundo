@@ -27,7 +27,7 @@
                 9 de Octubre y 24 de Mayo, Frente a CACPECO <br>
                 <strong>Tel:</strong><a class="" href="tel:+59332598837">+(593) 03 259 8837</a> <br>
                 <strong>WhatsApp:</strong> <a class="" href="https://wa.me/593989570091?text=Hola%20CREDIMUNDO,%20quiero%20saber%20m%C3%A1s%20sobre%20su%20servicio.%20%C2%BFMe%20puedes%20ayudar?">+(593) 98 957 0091</a> <br>
-                <strong>Email:</strong> <a class="" href="mailto:info@credimundo.com.ec">info@credimundo.com.ec</a> <br>
+                <strong>Email:</strong> <a class="" href="mailto:info@credi-mundo.com">info@credi-mundo.com</a> <br>
                 <strong>Web:</strong> <a class="" href="{{ url('/') }}">{{ url('/') }}</a>  <br>
                 <strong>Síguenos en:</strong>
             </p>

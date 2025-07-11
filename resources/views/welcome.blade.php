@@ -199,7 +199,7 @@
 			<div class="bg-primary bg-opacity-10 p-4 mb-4 text-center w-100 rounded">
 				<h3>APLICACIÓN WEB.</h3>
 				<p>Es un placer darles la bienvenida, apreciados socios, a la presentación de nuestra innovadora aplicación web. A través de esta plataforma, podrán disfrutar de la conveniencia de acceder a sus movimientos, créditos y explorar nuestra amplia gama de productos y servicios diseñados exclusivamente para ustedes.</p>
-				<a href="https://appweb.credimundo.com.ec/" target="_blanck" class="btn btn-primary">INGRESAR APLICACIÓN WEB</a>
+				<a href="https://appweb.credi-mundo.com/" target="_blanck" class="btn btn-primary">INGRESAR APLICACIÓN WEB</a>
 			</div>
 		</div>
 		<div class="mt-auto pb-3">
@@ -208,7 +208,7 @@
 				9 de Octubre y 24 de Mayo, Frente a CACPECO <br>
 				<strong class="">Tel:</strong><a href="tel:+59332598837">+(593) 03 259 8837</a> <br>
 				<strong class="">WhatsApp:</strong> <a href="https://wa.me/593989570091?text=Hola%20CREDIMUNDO,%20quiero%20saber%20m%C3%A1s%20sobre%20su%20servicio.%20%C2%BFMe%20puedes%20ayudar?">+(593) 98 957 0091</a> <br>
-				<strong class="">Email:</strong> <a href="mailto:info@credimundo.com.ec">info@credimundo.com.ec</a> <br>
+				<strong class="">Email:</strong> <a href="mailto:info@credi-mundo.com">info@credi-mundo.com</a> <br>
 				<strong class="">Web:</strong> <a href="{{ url('/') }}">{{ url('/') }}</a>  <br>
 				<strong class="">Síguenos en:</strong>
 			</p>
@@ -383,7 +383,7 @@
 					9 de Octubre y 24 de Mayo, Frente a CACPECO <br>
 					<strong>Tel:</strong><a class="text-muted" href="tel:+59332598837">+(593) 03 259 8837</a> <br>
 					<strong>WhatsApp:</strong> <a class="text-muted" href="https://wa.me/593989570091?text=Hola%20CREDIMUNDO,%20quiero%20saber%20m%C3%A1s%20sobre%20su%20servicio.%20%C2%BFMe%20puedes%20ayudar?">+(593) 98 957 0091</a> <br>
-					<strong>Email:</strong> <a class="text-muted" href="mailto:info@credimundo.com.ec">info@credimundo.com.ec</a> <br>
+					<strong>Email:</strong> <a class="text-muted" href="mailto:info@credi-mundo.com">info@credi-mundo.com</a> <br>
 					<strong>Web:</strong> <a class="text-muted" href="{{ url('/') }}">{{ url('/') }}</a>  <br>
 					<strong>Síguenos en:</strong>
 				</p>

@@ -52,7 +52,7 @@
         
                                 <div class="mb-3">
                                     <label for="correoElectronico" class=""><strong>CORREO ELECTRÓNICO</strong></label>
-                                    <input type="email" name="correoElectronico" class="form-control form-control-lg amount" id="correoElectronico" placeholder="Ejm, info@credimundo.com.ec" value="{{ old('correoElectronico') }}"  required>
+                                    <input type="email" name="correoElectronico" class="form-control form-control-lg amount" id="correoElectronico" placeholder="Ejm, info@credi-mundo.com" value="{{ old('correoElectronico') }}"  required>
                                 </div>
                             </div>
                             <div class="card-footer text-muted">
