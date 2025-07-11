@@ -15,7 +15,7 @@
                             <p class="text-dark fw-bold">
                                 Hoy les presentamos nuestra innovadora aplicación web, que les brinda la comodidad de acceder a sus movimientos, productos y servicios exclusivos para ustedes.
                             </p>
-                            <a href="https://appweb.credimundo.com.ec/" target="_blanck" class="btn btn-white" data-mdb-ripple-color="dark">INGRESAR APLICACIÓN WEB <i class="fa-solid fa-arrow-right mx-2"></i></a>
+                            <a href="https://appweb.credi-mundo.com/" target="_blanck" class="btn btn-white" data-mdb-ripple-color="dark">INGRESAR APLICACIÓN WEB <i class="fa-solid fa-arrow-right mx-2"></i></a>
                         </div>
                     </div>
                 </div>
